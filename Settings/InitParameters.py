@@ -1,0 +1,5 @@
+class InitParameters:
+    RESOLUTION = 500
+    GRID_SIZE = 20
+    GRID_DISTANCE = RESOLUTION // GRID_SIZE
+
