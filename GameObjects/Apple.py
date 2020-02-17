@@ -14,13 +14,12 @@ class Apple(GameObject):
 
     def place_random(self):
         grid_size = InitParameters.GRID_SIZE
-        x = random.randrange(0, grid_size)
-        y = random.randrange(0, grid_size)
-        self.positions.x_pos = x
-        self.positions.y_pos = y
+        self.positions.x_pos = random.randrange(0, grid_size)
+        self.positions.y_pos = random.randrange(0, grid_size)
 
     '''
     Invokes draw function in GridRectangle which draws using pygame
     '''
     def draw(self, surface):
         self.positions.draw(surface)
+

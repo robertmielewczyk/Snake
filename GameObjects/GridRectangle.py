@@ -23,3 +23,4 @@ class GridRectangle(GameObject):
 
     def __eq__(self, object):
         return isinstance(object, GridRectangle) and self.x_pos == object.x_pos and self.y_pos == object.y_pos
+

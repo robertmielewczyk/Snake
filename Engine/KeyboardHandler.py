@@ -1,6 +1,5 @@
 import pygame
 from Directions import Directions
-from Snake import Snake
 
 class KeyboardHandler:
     '''
